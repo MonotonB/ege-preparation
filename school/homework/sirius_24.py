@@ -42,7 +42,7 @@ def task_3_1():
 
 def task_3_2():
     N = int(input()) + 1
-    if N == 2: N += 1 # Я не придумал как исправить неработоспособность программы без этого костыля
+    if N == 2: N += 1  # Я не придумал как исправить неработоспособность программы без этого костыля
     num_b = int(bin(N).replace('0b', ''))
     while True:
         if sum(num_to_array(num_b)) > max(num_to_array(N)):
@@ -76,7 +76,7 @@ def task_5():
 
 def task_6():
     N = int(input()) + 1
-    if N == 2: N += 1 # Я не придумал как исправить неработоспособность программы без этого костыля
+    if N == 2: N += 1  # Я не придумал как исправить неработоспособность программы без этого костыля
     num_b = int(bin(N).replace('0b', ''))
     while True:
         if sum(num_to_array(num_b)) > max(num_to_array(N)):
